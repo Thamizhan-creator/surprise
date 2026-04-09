@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A special birthday surprise for Amma">
+    <title>Happy Birthday Amma ❤️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Music -->
+    <audio id="bg-music" src="./assets/music.webm" loop></audio>
+
+    <!-- Floating Hearts Container -->
+    <div id="hearts-container"></div>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero fade-in">
+            <h1 class="title">Happy Birthday Amma ❤️</h1>
+            <p class="subtitle">You are my life, my strength, my everything</p>
+            <button id="start-btn" class="gold-btn">Play Music 🎵</button>
+        </section>
+
+        <!-- Photo Gallery -->
+        <section class="gallery fade-in">
+            <h2 class="section-title">Beautiful Memories</h2>
+            <div class="photo-grid">
+                <div class="polaroid">
+                    <img src="./assets/photo1.jpg" alt="Memory with Amma 1">
+                </div>
+                <div class="polaroid">
+                    <img src="./assets/photo2.jpg" alt="Memory with Amma 2">
+                </div>
+                <div class="polaroid">
+                    <img src="./assets/photo3.jpg" alt="Memory with Amma 3">
+                </div>
+                <div class="polaroid">
+                    <img src="./assets/photo4.jpg" alt="Memory with Amma 4">
+                </div>
+            </div>
+        </section>
+
+        <!-- Message Section -->
+        <section class="message-section fade-in">
+            <div class="glass-card">
+                <h2 class="section-title">My Heartfelt Message</h2>
+                <p class="emotional-text">
+                    Dear Amma, thank you for everything you have done for me. 
+                    Your love means everything to me. I am so lucky to have you 
+                    in my life. I love you so much ❤️
+                </p>
+            </div>
+        </section>
+
+        <!-- Surprise Section -->
+        <section class="surprise-section fade-in">
+            <button id="surprise-btn" class="gold-btn">Click for Surprise 🎁</button>
+            <div id="surprise-message" class="hidden glass-card">
+                <h2 class="surprise-title">You are the best mom in the world!</h2>
+                <p class="surprise-subtitle">Happy Birthday ❤️</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="fade-in">
+        <p>Made with love by your son 💖</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
